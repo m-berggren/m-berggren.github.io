@@ -1,4 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-  <script type="text/javascript">const TARGET='exp/cv.pdf'; window.location.href = TARGET; </script>
-</html>
+---
+layout: default
+title: CV
+---
+
+<script>
+    // Track CV view/download
+    gtag('event', 'cv_download', {
+        'event_category': 'CV',
+        'event_label': 'PDF View'
+    });
+
+    // Redirect after tracking
+    setTimeout(function() {
+        window.location.href = 'cv.pdf';
+    }, 100);
+</script>
