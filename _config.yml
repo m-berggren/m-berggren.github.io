@@ -1,8 +1,8 @@
 title: Marcus Berggren
 description: Software Engineering Student
 
-baseurl: "/m-berggren.github.io"          # name of GitHub repository
-url: "https://m-berggren.github.io"       # custom url  to be used instead of GitHub repository
+baseurl: ""                                # name of GitHub repository
+url: "https://m-berggren.github.io"        # custom url  to be used instead of GitHub repository
 email: "mailto:berggren.me@gmail.com"
 
 # Pagination
